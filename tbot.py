@@ -24,7 +24,7 @@ def get_pixel_color(x, y):
 
 def is_enemy_in_sight():
     current_color = get_pixel_color(target_x, target_y)
-    print(f"Цвет прицела: {current_color}")  # Отладка: вывод цвета прицела
+  #  print(f"Цвет прицела: {current_color}")  # Отладка: вывод цвета прицела
     return current_color != default_color
 
 def is_right_mouse_down():
