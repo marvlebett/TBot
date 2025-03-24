@@ -58,6 +58,7 @@ def main():
             if not active:
                 active = True
                 print("Бот активирован")  # Отладка: подтверждение активации
+                time.sleep(0.1)  # Задержка для предотвращения ложного выстрела
         else:
             if active:
                 active = False
